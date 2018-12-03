@@ -275,16 +275,15 @@
       <workItem from="1543845121502" duration="2791000" />
       <workItem from="1543848447118" duration="1795000" />
       <workItem from="1543853849227" duration="2681000" />
-      <workItem from="1543857660463" duration="793000" />
+      <workItem from="1543857660463" duration="873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15841000" />
+    <option name="totallyTimeSpent" value="15921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="745" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -297,7 +296,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
@@ -305,7 +304,7 @@
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.30491802" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.30491802" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />

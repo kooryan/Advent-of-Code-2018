@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) throws IOException{
@@ -30,7 +31,7 @@ public class Main {
 
         // PART 2
 
-        HashSet<Integer> log = new HashSet<>();
+        Set<Integer> log = new HashSet<>();
 
         boolean dupNotFound = true;
         int frequency = 0;
