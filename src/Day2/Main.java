@@ -18,30 +18,61 @@ public class Main {
         int occurs2 = 0;
         int occurs3 = 0;
 
-        for (int i=0; i<lines.length;i++) {
+        for (String each : lines) {
 
-            String newLine = lines[i];
+            boolean foundTwo = false,
+                    foundThree = false;
 
-            for (int j = 0; j < newLine.length(); j++) {
+            Map<Character, Integer> frequencies = new HashMap<>();
 
+            for (int j = 0; j < each.length(); j++) {
 
-                Map<Character,Integer> frequencies = new HashMap<>();
+                char ch = each.charAt(j);
 
-                for (char ch : newLine.toCharArray()) {
-                    Map<String, Integer> frequency = new HashMap<>();
-                    frequencies.put(ch, frequencies.getOrDefault(ch, 0) + 1);
-                    if () {
+                frequencies.merge(ch, 1, (a, b) -> (a + b));
 
-                    }
-                    System.out.println(frequencies);
+            }
 
+            for (Map.Entry<Character, Integer> map : frequencies.entrySet()) {
+                if (!foundTwo && map.getValue() == 2) {
+                    occurs2++;
+                    foundTwo = true;
                 }
+                if (!foundThree && map.getValue() == 3) {
+                    occurs3++;
+                    foundThree = true;
+                }
+
+                System.out.println(map);
+                System.out.println(each);
+
 
             }
         }
 
         System.out.println(occurs2 * occurs3);
 
+
+        // PART 2
+        for (int i =0; i< lines.length; i++) {
+            String comp1 = lines[i];
+            for (int j = i+1; j<lines.length; j++) {
+                String comp2 = lines[j];
+                int distance = 0;
+                StringBuilder differingCharacters = new StringBuilder();
+                for (int n = 0; n<comp1.length(); n++) {
+                    if (comp1.charAt(n) != comp2.charAt(n)) {
+                        if (++distance > 1) {
+                            differingCharacters.append(comp1.charAt(n));
+                        }
+                    }
+                    if (distance == 1) {
+                        differingCharacters.toString();
+                    }
+
+                }
+            }
+        }
 
     }
 
@@ -58,7 +89,4 @@ public class Main {
             return fileContents.toString();
         }
     }
-
-
-
 }
