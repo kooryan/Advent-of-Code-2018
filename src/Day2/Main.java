@@ -2,9 +2,9 @@ package Day2;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.nio.file.Files;
+import java.util.*;
+
 
 public class Main {
 
@@ -14,6 +14,12 @@ public class Main {
 
         String line = fileReader("src/Day2/list.txt");
         String[] lines = line.split(System.getProperty("line.separator"));
+
+        Scanner scanner = new Scanner(new File("src/Day2/list.txt"));
+        ArrayList<String> list = new ArrayList();
+        while (scanner.hasNextLine()) {
+            list.add(scanner.nextLine());
+        }
 
         int occurs2 = 0;
         int occurs3 = 0;
@@ -43,8 +49,8 @@ public class Main {
                     foundThree = true;
                 }
 
-                System.out.println(map);
-                System.out.println(each);
+//                System.out.println(map);
+//                System.out.println(each);
 
 
             }
@@ -54,27 +60,31 @@ public class Main {
 
 
         // PART 2
-        for (int i =0; i< lines.length; i++) {
-            String comp1 = lines[i];
-            for (int j = i+1; j<lines.length; j++) {
-                String comp2 = lines[j];
-                int distance = 0;
-                StringBuilder differingCharacters = new StringBuilder();
-                for (int n = 0; n<comp1.length(); n++) {
-                    if (comp1.charAt(n) != comp2.charAt(n)) {
-                        if (++distance > 1) {
-                            differingCharacters.append(comp1.charAt(n));
+
+        List<String> lin = Files.readAllLines(new File("src/Day2/list.txt").toPath());
+
+            for (int i = 0; i < lin.size(); i++) {
+                String firstLine = lin.get(i);
+                for (int j = i; j < lin.size(); j++) {
+                    int distance = 0;
+                    String secondLine = lin.get(j);
+                    StringBuilder commonLetters = new StringBuilder();
+                    for (int k = 0; k < firstLine.length(); k++) {
+                        if (firstLine.charAt(k) == secondLine.charAt(k)) {
+                            commonLetters.append(secondLine.charAt(k));
+
+                        } else if (distance++ > 1) {
+                            break;
                         }
                     }
                     if (distance == 1) {
-                        differingCharacters.toString();
+                        System.out.println(commonLetters.toString());
                     }
-
                 }
             }
-        }
 
     }
+
 
     static String fileReader(String pathname) throws IOException {
 
@@ -83,10 +93,11 @@ public class Main {
         StringBuilder fileContents = new StringBuilder((int) file.length());
 
         try (sc) {
-            while(sc.hasNextLine()) {
+            while (sc.hasNextLine()) {
                 fileContents.append(sc.nextLine() + System.lineSeparator());
             }
             return fileContents.toString();
         }
     }
+
 }
