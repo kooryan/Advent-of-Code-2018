@@ -8,21 +8,19 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Main {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
 
 
         Scanner scanner = new Scanner(new File("src/Day1/list.txt"));
         ArrayList<Integer> list = new ArrayList();
-        while(scanner.hasNextInt()){
-             list.add(scanner.nextInt());
+        while (scanner.hasNextInt()) {
+            list.add(scanner.nextInt());
         }
 
         //PART 1
 
-        System.out.println(list);
-
         int sum = 0;
-        for (int i =0; i<list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             sum += list.get(i);
         }
 
@@ -46,9 +44,8 @@ public class Main {
                     System.out.println(frequency);
                     dupNotFound = false;
                     break;
-                }
-
-                log.add(frequency);
+                } else
+                    log.add(frequency);
 
             }
         }

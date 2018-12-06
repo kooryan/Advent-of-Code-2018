@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d629b9e0-5363-464c-aefb-60cc108f36f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day3/list.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day5/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Advent-of-code-2018/Day1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-code-2018/Day1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Advent-of-code-2018/Day2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-code-2018/Day2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Day2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,42 +20,46 @@
     <session id="1746919130">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
-          <entry key="txt" value="4" />
+          <entry key="java" value="19" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="19" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6486" />
+          <entry key="java" value="9816" />
           <entry key="txt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6486" />
+          <entry key="JAVA" value="9816" />
           <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
@@ -66,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Day1/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="570">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,19 +80,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Day3/list.txt">
+        <entry file="file://$PROJECT_DIR$/src/Day1/list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="1316" column="22" selection-start-line="1316" selection-start-column="22" selection-end-line="1316" selection-end-column="22" />
+            <state relative-caret-position="15415">
+              <caret line="1039" column="6" selection-start-line="1039" selection-start-column="6" selection-end-line="1039" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Day5/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Day5/list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Day2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+            <state relative-caret-position="757">
+              <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Day2/list.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="231" column="26" lean-forward="true" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
+            <state relative-caret-position="3465">
+              <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -108,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Day3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -139,13 +164,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/ryankoo/Day2/Main.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Day3/Main.java" />
         <option value="$PROJECT_DIR$/src/Day2/list.txt" />
         <option value="$PROJECT_DIR$/src/Day1/list.txt" />
-        <option value="$PROJECT_DIR$/src/Day1/Main.java" />
         <option value="$PROJECT_DIR$/src/base.java" />
         <option value="$PROJECT_DIR$/src/Day3/list.txt" />
+        <option value="$PROJECT_DIR$/src/Day5/test.txt" />
+        <option value="$PROJECT_DIR$/src/Day5/shortPolymer.txt" />
+        <option value="$PROJECT_DIR$/src/Day5/list.txt" />
+        <option value="$PROJECT_DIR$/src/Day5/expectedResult.java" />
+        <option value="$PROJECT_DIR$/src/Day3/Main.java" />
+        <option value="$PROJECT_DIR$/src/Day5/Main.java" />
         <option value="$PROJECT_DIR$/src/Day2/Main.java" />
+        <option value="$PROJECT_DIR$/src/Day1/Main.java" />
       </list>
     </option>
   </component>
@@ -156,8 +186,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
     <option name="y" value="23" />
-    <option name="width" value="1366" />
+    <option name="width" value="1340" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -196,6 +227,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Day3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Advent-of-code-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Advent-of-code-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Day5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -207,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543942589697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544112564727" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -230,13 +267,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day1.Main" />
       <module name="Advent-of-code-2018" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day5.Main" />
+      <module name="Advent-of-code-2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,14 +304,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="expectedResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day5.expectedResult" />
+      <module name="Advent-of-code-2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.expectedResult" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.expectedResult" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -287,15 +354,19 @@
       <workItem from="1543869414751" duration="1591000" />
       <workItem from="1543887011986" duration="731000" />
       <workItem from="1543898411195" duration="147000" />
-      <workItem from="1543940454266" duration="1872000" />
+      <workItem from="1543940454266" duration="2960000" />
+      <workItem from="1543992326428" duration="2094000" />
+      <workItem from="1544026220834" duration="2377000" />
+      <workItem from="1544039813178" duration="5493000" />
+      <workItem from="1544109500205" duration="2749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20663000" />
+    <option name="totallyTimeSpent" value="34464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="745" extended-state="0" />
+    <frame x="13" y="23" width="1340" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" order="0" />
@@ -304,7 +375,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.509434" side_tool="true" weight="0.24962853" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49056605" visible="true" weight="0.30060422" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49056605" visible="true" weight="0.20955315" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -317,7 +388,7 @@
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.30491802" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.30491802" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -342,30 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day1/list.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="1039" column="6" selection-start-line="1039" selection-start-column="6" selection-end-line="1039" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day1/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Day3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -406,22 +453,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day3/list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="19740">
           <caret line="1316" column="22" selection-start-line="1316" selection-start-column="22" selection-end-line="1316" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shortPolymer.txt" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1511" column="22" selection-start-line="1511" selection-start-column="22" selection-end-line="1511" selection-end-column="22" />
+          <folding>
+            <element signature="e#58495#58496#0" expanded="true" />
+            <element signature="e#58534#58535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day5/shortPolymer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47978" selection-start-column="47978" selection-end-column="47978" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day5/expectedResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day5/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day2/list.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="231" column="26" lean-forward="true" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
+        <state relative-caret-position="3465">
+          <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day1/list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15415">
+          <caret line="1039" column="6" selection-start-line="1039" selection-start-column="6" selection-end-line="1039" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day1/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        <state relative-caret-position="757">
+          <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day5/list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

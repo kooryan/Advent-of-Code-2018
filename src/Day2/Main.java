@@ -63,25 +63,25 @@ public class Main {
 
         List<String> lin = Files.readAllLines(new File("src/Day2/list.txt").toPath());
 
-            for (int i = 0; i < lin.size(); i++) {
-                String firstLine = lin.get(i);
-                for (int j = i; j < lin.size(); j++) {
-                    int distance = 0;
-                    String secondLine = lin.get(j);
-                    StringBuilder commonLetters = new StringBuilder();
-                    for (int k = 0; k < firstLine.length(); k++) {
-                        if (firstLine.charAt(k) == secondLine.charAt(k)) {
-                            commonLetters.append(secondLine.charAt(k));
+        for (int i = 0; i < lin.size(); i++) {
+            String firstLine = lin.get(i);
+            for (int j = i; j < lin.size(); j++) {
+                int distance = 0;
+                String secondLine = lin.get(j);
+                StringBuilder commonLetters = new StringBuilder();
+                for (int k = 0; k < firstLine.length(); k++) {
+                    if (firstLine.charAt(k) == secondLine.charAt(k)) {
+                        commonLetters.append(secondLine.charAt(k));
 
-                        } else if (distance++ > 1) {
-                            break;
-                        }
-                    }
-                    if (distance == 1) {
-                        System.out.println(commonLetters.toString());
+                    } else if (distance++ > 1) {
+                        break;
                     }
                 }
+                if (distance == 1) {
+                    System.out.println(commonLetters.toString());
+                }
             }
+        }
 
     }
 
